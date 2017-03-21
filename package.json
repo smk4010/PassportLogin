@@ -1,0 +1,26 @@
+{
+  "name": "userlogin",
+  "version": "1.0.0",
+  "description": "User Login Interface Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Smk4010",
+  "license": "ISC",
+  "dependencies":{
+    "express":"*",
+    "body-parser":"*",
+    "express-handlebars":"*",
+    "express-messages":"*",
+    "express-session":"*",
+    "express-validator":"*",
+    "express-flash":"*",
+    "mongoose":"*",
+    "passport":"*",
+    "passport-http":"*",
+    "passport-local":"*",
+    "bcryptjs":"*"
+  }
+}
